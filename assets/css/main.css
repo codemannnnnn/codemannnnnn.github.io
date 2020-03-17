@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: solid white;
 	}
 
 	i, em {
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: black;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -220,6 +220,20 @@ input, select, textarea {
 		footer > p {
 			font-size: 1.25em;
 		}
+
+
+/*These are my styles*/
+
+#ati{
+	color:white;
+}
+
+#hat{
+	color:black;
+}
+
+
+
 
 /* Container */
 
@@ -1686,7 +1700,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: grey;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1974,7 +1988,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: black;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -1995,7 +2009,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color:black;
 		}
 
 		.wrapper.style2 {
